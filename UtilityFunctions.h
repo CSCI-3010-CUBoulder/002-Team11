@@ -4,6 +4,6 @@
 
 class UtilityFunctions
 {
-    public:
-        std::vector<int> EvenMask(std::vector<int> input);
+    std::vector<int> EvenMask(std::vector<int> input);
+    std::vector<bool> oddMask(std::vector<int> v);
 }
