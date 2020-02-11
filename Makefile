@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
 
-all: main
+all: main test
 
 clean:
 	rm main test
