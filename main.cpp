@@ -9,6 +9,7 @@ int main(){
     for(bool b:ret){
         std::cout << b << " ";
     }
+    std::cout << std::endl;
     for(bool b:ret2)
     {
         std::cout << b << " ";

@@ -6,5 +6,5 @@ all: main
 clean:
 	rm main
 
-main: main.cpp UtilityFunction.cpp
-	$(CXX) $(CXXFLAGS) main.cpp UtilityFunction.cpp -o main
+main: main.cpp UtilityFunctions.cpp
+	$(CXX) $(CXXFLAGS) main.cpp UtilityFunctions.cpp -o main

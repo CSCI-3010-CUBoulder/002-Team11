@@ -4,7 +4,7 @@
 std::vector<bool> EvenMask(std::vector<int> input)
 {
     std::vector<bool> mask;
-    for (int i = 0; i < input.size(); i++)
+    for (unsigned int i = 0; i < input.size(); i++)
     {
         if (input.at(i) % 2 == 0)
         {
