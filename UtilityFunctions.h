@@ -1,3 +1,9 @@
+#ifndef _UTILITYFUNCTIONS_H_
+#define _UTILITYFUNCTIONS_H_
 #include <vector>
 
-std::vector<bool> oddMask(std::vector<int> v);
+class UtilityFunctions
+{
+    std::vector<int> EvenMask(std::vector<int> input);
+    std::vector<bool> oddMask(std::vector<int> v);
+}
